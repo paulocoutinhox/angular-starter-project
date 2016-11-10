@@ -11,7 +11,7 @@ module.exports = [
 	new webpack.ProgressPlugin(),
 	new ngtools.AotPlugin({
 		tsConfigPath: './tsconfig.json',
-		baseDir: path.join(process.cwd(), 'src'),
+		baseDir: process.cwd(),
 		entryModule: path.join(process.cwd(), 'src', 'app', 'modules', 'main.module') + '#MainModule'
 	}),
 	new webpack.ContextReplacementPlugin(
