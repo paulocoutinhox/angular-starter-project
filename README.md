@@ -29,6 +29,7 @@ Want check your production files?
 - Main and route modules
 - Well organized (bootstrap, polyfills and vendor)
 - Static files folder with favicons
+- Live reload
 
 Ready to use project :)
 
