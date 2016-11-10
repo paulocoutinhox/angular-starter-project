@@ -8,7 +8,7 @@ module.exports = {
 	stats: 'errors-only',
 	watchOptions: {
 		aggregateTimeout: 300,
-		poll: 500
+		poll: 1000
 	},
 	proxy: {
 		'/api': {

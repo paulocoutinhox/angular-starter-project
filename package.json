@@ -8,7 +8,7 @@
 		"explorer": "source-map-explorer ./dist/bootstrap.bundle.js ./dist/bootstrap.bundle.js.map",
 		"ngc": "ngc -p ./tsconfig.json",
 		"serve": "lite-server -c ./bs-config.js",
-		"start": "npm run ngc && webpack-dev-server --config webpack.config.js",
+		"start": "npm run ngc && concurrently -r \"webpack-dev-server --config webpack.config.js\" \"node ./bin/ngc-watch.js\"",
 		"start-prod": "npm run build && npm run serve",
 		"build": "npm run ngc && npm run webpack-prod",
 		"webpack": "rm -rf ./dist && webpack --config webpack.config.js",
@@ -64,6 +64,7 @@
 		"typescript": "2.0.8",
 		"url-loader": "0.5.7",
 		"webpack": "2.1.0-beta.25",
-		"webpack-dev-server": "2.1.0-beta.10"
+		"webpack-dev-server": "2.1.0-beta.10",
+		"concurrently": "3.1.0"
 	}
 }
