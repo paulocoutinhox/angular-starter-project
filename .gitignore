@@ -1,0 +1,10 @@
+node_modules
+/dist
+/.idea
+src/app/**/*.js
+src/app/**/*.js.map
+src/app/**/*metadata.json
+src/app/**/*.ngfactory.ts
+src/app/**/*.shim.ts
+npm-debug.log
+/aot
