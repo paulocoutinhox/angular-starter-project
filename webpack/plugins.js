@@ -8,6 +8,7 @@ let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let path = require('path');
 
 module.exports = [
+	new webpack.ProgressPlugin(),
 	new ngtools.AotPlugin({
 		tsConfigPath: './tsconfig.json',
 		baseDir: path.join(process.cwd(), 'src'),

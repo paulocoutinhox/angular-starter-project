@@ -7,7 +7,7 @@ module.exports = {
 	rules: [
 		{
 			test: /\.ts$/,
-			use: ['@ngtools/webpack']
+			use: '@ngtools/webpack'
 		},
 		{
 			test: /\.html$/,
@@ -27,8 +27,12 @@ module.exports = {
 			})
 		},
 		{
+			test: /\.(woff|woff2)$/,
+			loader: 'url-loader?name=assets/[name].[ext]&limit=10000&mimetype=application/font-woff'
+		},
+		{
 			test: /\.(png|jpeg|jpg|gif|svg|woff|woff2|ttf|eot|ico)$/,
 			loader: 'file-loader?name=assets/[name].[ext]'
-		},
+		}
 	]
 };
