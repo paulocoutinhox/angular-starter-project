@@ -18,6 +18,20 @@ Want check your production files?
 
 > npm run serve
 
+# What is included?
+
+- Angular2
+- Webpack2
+- jQuery 2
+- Bootstrap 3
+- Some components (home, about, not found[404], header, footer, main)
+- Routes (home and basic components)
+- Main and route modules
+- Well organized (bootstrap, polyfills and vendor)
+- Static files folder with favicons
+
+Ready to use project :)
+
 # More commands
 
 Clean project leaving only project files  
