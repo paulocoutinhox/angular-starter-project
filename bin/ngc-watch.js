@@ -16,10 +16,10 @@ chokidar.watch(
 		ignoreInitial: true
 	}
 ).on('all', () => {
-	console.log(`\n> Recompiling: ${ngcCommand}`);
+	console.log("\n> Recompiling...");
 	childProcess.execSync(ngcCommand, {
 		encoding: 'utf8',
 		cwd: process.cwd()
 	});
-	console.log("\n> Compilation finished");
+	console.log("\n> Finished");
 });

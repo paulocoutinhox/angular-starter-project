@@ -52,8 +52,6 @@ module.exports = {
 
 	resolve: require('./webpack/resolve'),
 
-	devServer: require('./webpack/dev-server'),
-
 	stats: 'errors-only',
 
 	devtool: false
