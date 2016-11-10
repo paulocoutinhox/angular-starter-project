@@ -27,12 +27,28 @@ module.exports = {
 			})
 		},
 		{
-			test: /\.(woff|woff2)$/,
-			loader: 'url-loader?name=assets/[name].[ext]&limit=10000&mimetype=application/font-woff'
+			test: /\.svg$/,
+			use: 'url-loader?limit=150000&mimetype=image/svg+xml&name=assets/fonts/[name].[ext]'
 		},
 		{
-			test: /\.(png|jpeg|jpg|gif|svg|woff|woff2|ttf|eot|ico)$/,
-			loader: 'file-loader?name=assets/[name].[ext]'
+			test: /\.woff$/,
+			use: 'url-loader?limit=65000&mimetype=application/font-woff&name=assets/fonts/[name].[ext]'
+		},
+		{
+			test: /\.woff2$/,
+			use: 'url-loader?limit=65000&mimetype=application/font-woff2&name=assets/fonts/[name].[ext]'
+		},
+		{
+			test: /\.[ot]tf$/,
+			use: 'url-loader?limit=65000&mimetype=application/octet-stream&name=assets/fonts/[name].[ext]'
+		},
+		{
+			test: /\.eot$/,
+			use: 'url-loader?limit=65000&mimetype=application/vnd.ms-fontobject&name=assets/fonts/[name].[ext]'
+		},
+		{
+			test: /\.(png|jpeg|jpg|gif|ico)$/,
+			use: 'file-loader?name=assets/images/[name].[ext]'
 		}
 	]
 };
