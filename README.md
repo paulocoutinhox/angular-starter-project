@@ -12,4 +12,4 @@ Open the URL in your prefered browser:
 
 # Screenshots
 
-![SS1](https://github.com/prsolucoes/angular2-starter-project/raw/master/extras/screenshots/ss1.png "Screenshot 1")
+![SS1](https://github.com/prsolucoes/angular2-starter-project/raw/master/extras/screenshots/screenshot1.png "Screenshot 1")
