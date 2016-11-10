@@ -4,7 +4,7 @@
 	"description": "Angular 2 Starter Project",
 	"main": "index.js",
 	"scripts": {
-		"clean": "rm -rf aot && rm -rf dist && find ./src/app/ -type f -name '.DS_Store' -exec rm {} + && find ./src/app/ -type f -name '*.metadata.json' -exec rm {} + && find ./src/app/ -type f -name '*.ngfactory.ts' -exec rm {} + && find ./src/app/ -type f -name '*.css.shim.ts' -exec rm {} + && find ./src/app/ -type f -name '*.js' -exec rm {} + && find ./src/app/ -type f -name '*.js.map' -exec rm {} +",
+		"clean": "rm -rf aot && rm -rf dist && find ./ -type f -name '.DS_Store' -exec rm {} + && find ./src/app/ -type f -name '*.metadata.json' -exec rm {} + && find ./src/app/ -type f -name '*.ngfactory.ts' -exec rm {} + && find ./src/app/ -type f -name '*.css.shim.ts' -exec rm {} + && find ./src/app/ -type f -name '*.js' -exec rm {} + && find ./src/app/ -type f -name '*.js.map' -exec rm {} +",
 		"explorer": "source-map-explorer ./dist/bootstrap.bundle.js ./dist/bootstrap.bundle.js.map",
 		"ngc": "ngc -p ./tsconfig.json",
 		"serve": "lite-server -c ./bs-config.js",
