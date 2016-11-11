@@ -12,7 +12,7 @@ module.exports = [
 	new ngtools.AotPlugin({
 		tsConfigPath: './tsconfig.json',
 		baseDir: path.join(process.cwd(), 'src'),
-		entryModule: path.join(process.cwd(), 'src', 'app', 'modules', 'main.module') + '#MainModule'
+		entryModule: path.join(process.cwd(), 'src', 'app', 'modules', 'app.module') + '#AppModule'
 	}),
 	new webpack.ContextReplacementPlugin(
 		/angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
