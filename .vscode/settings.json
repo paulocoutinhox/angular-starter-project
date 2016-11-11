@@ -1,0 +1,9 @@
+{
+	"typescript.check.workspaceVersion": false,
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.wordWrap": false,
+	"editor.detectIndentation": false,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true
+}
