@@ -20,7 +20,6 @@ module.exports = [
 	),
 	new CopyWebpackPlugin([
 		{from: 'static/index.html'},
-		{from: 'static/icons/favicon.ico'},
 		{from: 'static/icons/favicon.png'}
 	]),
 	new ExtractTextPlugin('[name].bundle.css'),
