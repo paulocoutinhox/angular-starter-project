@@ -22,7 +22,7 @@ Want check your production files?
 
 - Angular2
 - Webpack2
-- jQuery 2
+- jQuery 3
 - Bootstrap 3
 - Some components (home, about, not found[404], header, footer, main)
 - Routes (home and basic components)
