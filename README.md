@@ -22,6 +22,10 @@ Want check your production files?
 
 > npm run serve
 
+# Execute E2E tests
+
+> npm run tests-e2e
+
 # What is included?
 
 - Angular2
