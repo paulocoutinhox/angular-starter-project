@@ -4,12 +4,16 @@ node_js:
 addons:
   firefox: "43.0"
 before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
-  - "webdriver-manager update --standalone --firefox"
-  - "webdriver-manager start 2>&1 &"
-  - sleep 5
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - webdriver-manager update --standalone --firefox
+  - webdriver-manager start 2>&1 &
+  - sleep 10
 script:  
-  - "npm start 2>&1 &"
+  - echo "Extracting firefox and setting PATH variable..."
+  - tar -xjf /tmp/firefox-43.0.tar.bz2 --directory /tmp
+  - export PATH="/tmp/firefox:$PATH"
+  - echo "Using firefox version `firefox --version`"
+  - npm start 2>&1 &
   - sleep 20
-  - "npm run tests-e2e"
+  - npm run tests-e2e
