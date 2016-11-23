@@ -38,6 +38,7 @@ Want check your production files?
 - Well organized (bootstrap, polyfills and vendor)
 - Static files folder with favicons
 - Live reload
+- E2E tests with Protractor
 
 Ready to use project :)
 
