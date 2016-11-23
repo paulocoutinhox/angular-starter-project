@@ -11,4 +11,4 @@ before_script:
   - sleep 5
 script:  
   - "npm start 2>&1 &"
-  - "npm run tests-e2e
+  - "npm run tests-e2e"
