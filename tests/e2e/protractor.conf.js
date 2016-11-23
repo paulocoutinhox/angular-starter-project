@@ -4,7 +4,9 @@ exports.config = {
 	useAllAngular2AppRoots: true,
 	directConnect: true,
 	allScriptsTimeout: 80000,
-
+	capabilities: {
+		'browserName': 'firefox'
+	},
 	jasmineNodeOpts: {
 		showColors: true,
 		defaultTimeoutInterval: 80000
