@@ -13,7 +13,7 @@
 		"build": "npm run ngc && npm run webpack-prod",
 		"webpack": "rm -rf ./dist && webpack --config webpack.config.js",
 		"webpack-prod": "rm -rf ./dist && webpack --config webpack.prod.config.js",
-		"tests-e2e": "webdriver-manager update && protractor tests/e2e/protractor.conf.js"
+		"tests-e2e": "protractor tests/e2e/protractor.conf.js"
 	},
 	"keywords": [
 		"angular2",
