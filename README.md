@@ -1,3 +1,7 @@
+# CI
+
+[![Build Status](https://travis-ci.org/prsolucoes/angular2-starter-project.svg?branch=master)](https://travis-ci.org/prsolucoes/angular2-starter-project)
+
 # Quickstart
 
 Run this commands on this project directory:
@@ -17,6 +21,10 @@ Open the URL in your prefered browser:
 Want check your production files? 
 
 > npm run serve
+
+# Execute E2E tests
+
+> npm run tests-e2e
 
 # What is included?
 
