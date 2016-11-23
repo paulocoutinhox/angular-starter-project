@@ -1,3 +1,7 @@
+# CI
+
+[![Build Status](https://travis-ci.org/prsolucoes/angular2-starter-project.svg?branch=master)](https://travis-ci.org/prsolucoes/angular2-starter-project)
+
 # Quickstart
 
 Run this commands on this project directory:
