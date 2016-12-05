@@ -54,7 +54,7 @@
 		"@types/node": "6.0.51",
 		"@types/jquery": "2.0.34",
 		"copy-webpack-plugin": "4.0.1",
-		"css-loader": "0.26.0",
+		"css-loader": "0.26.1",
 		"extract-text-webpack-plugin": "2.0.0-beta.4",
 		"file-loader": "0.9.0",
 		"lite-server": "2.2.2",
