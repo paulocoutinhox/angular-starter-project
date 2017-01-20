@@ -5,7 +5,7 @@ exports.config = {
 	directConnect: true,
 	allScriptsTimeout: 80000,
 	capabilities: {
-		'browserName': 'chrome'
+		'browserName': 'firefox'
 	},
 	jasmineNodeOpts: {
 		showColors: true,
