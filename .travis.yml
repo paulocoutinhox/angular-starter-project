@@ -2,14 +2,14 @@ language: node_js
 node_js:
   - "6"
 addons:
-  firefox: "49.0.2"
+  firefox: "51.0"
 before_install:
   - wget https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-linux64.tar.gz
   - mkdir geckodriver
   - tar -xzf geckodriver-v0.11.1-linux64.tar.gz -C geckodriver
   - export PATH=$PATH:$PWD/geckodriver
 install:
-  - npm install selenium-webdriver@^3.0.0
+  - npm install selenium-webdriver@^3.0.1
   - npm install  
 before_script:
   - export DISPLAY=:99.0
@@ -19,7 +19,7 @@ before_script:
   - sleep 10
 script:  
   - echo "Extracting firefox and setting PATH variable..."
-  - tar -xjf /tmp/firefox-49.0.2.tar.bz2 --directory /tmp
+  - tar -xjf /tmp/firefox-51.0.tar.bz2 --directory /tmp
   - export PATH="/tmp/firefox:$PATH"
   - echo "Using firefox version `firefox --version`"
   - npm start 2>&1 &
