@@ -16,7 +16,7 @@ before_script:
   - sleep 10
 script:  
   - echo "Extracting firefox and setting PATH variable..."
-  - tar -xjf /tmp/firefox-43.0.tar.bz2 --directory /tmp
+  - tar -xjf /tmp/firefox-49.0.2.tar.bz2 --directory /tmp
   - export PATH="/tmp/firefox:$PATH"
   - echo "Using firefox version `firefox --version`"
   - npm start 2>&1 &
