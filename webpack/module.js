@@ -16,13 +16,13 @@ module.exports = {
 		{
 			test: /\.css$/,
 			include: path.resolve(process.cwd(), 'src', 'app'),
-			loaders: ['to-string-loader', 'css-loader']
+			use: ['to-string-loader', 'css-loader']
 		},
 		{
 			test: /\.css$/,
 			exclude: path.resolve(process.cwd(), 'src', 'app'),
-			loader: ExtractTextPlugin.extract({
-				fallbackLoader: 'style-loader',
+			use: ExtractTextPlugin.extract({
+				fallback: 'style-loader',
 				loader: 'css-loader'
 			})
 		},
