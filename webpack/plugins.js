@@ -19,10 +19,12 @@ module.exports = [
 		path.join(process.cwd(), 'src')
 	),
 	new CopyWebpackPlugin([
-		{from: 'static/index.html'},
-		{from: 'static/icons/favicon.png'}
+		{ from: 'static/index.html' },
+		{ from: 'static/icons/favicon.png' }
 	]),
-	new ExtractTextPlugin('[name].bundle.css'),
+	new ExtractTextPlugin({
+		filename: '[name].bundle.css'
+	}),
 	new webpack.ProvidePlugin({
 		jQuery: 'jquery',
 		$: 'jquery',
