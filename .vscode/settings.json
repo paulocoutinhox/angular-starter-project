@@ -3,7 +3,7 @@
 	"editor.formatOnSave": true,
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
-	"editor.wordWrap": false,
+	"editor.wordWrap": "off",
 	"editor.detectIndentation": false,
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true
 }
