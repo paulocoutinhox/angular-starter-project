@@ -14,6 +14,7 @@
 		"webpack": "rm -rf ./dist && webpack --config webpack.config.js",
 		"webpack-prod": "rm -rf ./dist && webpack --config webpack.prod.config.js",
 		"tests-e2e": "protractor tests/e2e/protractor.conf.js",
+		"prepare-tests-e2e": "webdriver-manager update --standalone --gecko && webdriver-manager start",
 		"update-deps": "rm -rf ./node_modules && npm install",
 		"update-deps-and-start": "npm run update-deps && npm start",
 		"update-deps-and-upload": "npm run update-deps && git add --all && git commit -am 'updated dependencies' && git push origin master"
@@ -74,6 +75,7 @@
 		"chokidar": "1.6.1",
 		"http-proxy-middleware": "0.17.4",
 		"connect-history-api-fallback": "1.3.0",
-		"protractor": "5.1.1"
+		"protractor": "5.1.1",
+		"jasmine-spec-reporter": "3.2.0"
 	}
 }
