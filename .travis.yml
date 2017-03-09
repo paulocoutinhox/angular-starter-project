@@ -18,6 +18,4 @@ before_script:
 install:
   - npm install
 script:  
-  - npm start 2>&1 &
-  - sleep 20
   - npm run tests-e2e
