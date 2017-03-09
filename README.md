@@ -28,8 +28,8 @@ Want check your production files?
 
 # What is included?
 
-- Angular2
-- Webpack2
+- Angular 2
+- Webpack 2
 - jQuery 3
 - Bootstrap 3
 - Some components (home, about, not found[404], header, footer, main)
