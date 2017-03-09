@@ -19,3 +19,4 @@ install:
   - npm install
 script:  
   - npm run tests-e2e
+  - killall java
