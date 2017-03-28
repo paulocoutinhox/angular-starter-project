@@ -1,3 +1,5 @@
+# Angular 4 Starter Project
+
 # CI
 
 [![Build Status](https://travis-ci.org/prsolucoes/angular-starter-project.svg?branch=master)](https://travis-ci.org/prsolucoes/angular-starter-project)
@@ -28,7 +30,7 @@ Want check your production files?
 
 # What is included?
 
-- Angular 2
+- Angular 4
 - Webpack 2
 - jQuery 3
 - Bootstrap 3

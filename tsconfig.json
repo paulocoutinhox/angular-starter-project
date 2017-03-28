@@ -18,6 +18,10 @@
 			"core-js",
 			"node",
 			"jquery"
+		],
+		"lib": [
+			"es2015",
+			"dom"
 		]
 	},
 	"exclude": [
