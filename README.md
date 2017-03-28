@@ -1,7 +1,5 @@
 # Angular 4 Starter Project
 
-# CI
-
 [![Build Status](https://travis-ci.org/prsolucoes/angular-starter-project.svg?branch=master)](https://travis-ci.org/prsolucoes/angular-starter-project)
 
 # Quickstart
