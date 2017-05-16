@@ -1,6 +1,6 @@
 {
 	"typescript.check.workspaceVersion": false,
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
 	"editor.wordWrap": "off",
