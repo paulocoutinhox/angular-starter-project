@@ -8,11 +8,15 @@ Run this commands on this project directory:
 
 > npm install  
 > npm start  
-  
+
 # In action
 
 Open the URL in your prefered browser:  
 [http://localhost:9000](http://localhost:9000)
+
+# Demo
+
+http://angular-starter-project.prsolucoes.com  
 
 # Generate files to production
 
